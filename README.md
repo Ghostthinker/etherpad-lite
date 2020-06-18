@@ -6,6 +6,8 @@
 # About
 Etherpad is a real-time collaborative editor scalable to thousands of simultaneous real time users. It provides full data export capabilities, and runs on _your_ server, under _your_ control.
 
+This etherpad is customized for the SCoRe project.
+
 **[Try it out](https://video.etherpad.com)**
 
 # Installation
