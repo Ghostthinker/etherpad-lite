@@ -1,0 +1,14 @@
+{
+  "name": "ep_locker",
+  "version": "1.0.0",
+  "description": "This plugin can lock the pad for other users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lock"
+  ],
+  "author": "Ghostthinker GmbH",
+  "license": "ISC"
+}

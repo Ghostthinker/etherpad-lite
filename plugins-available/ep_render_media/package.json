@@ -1,0 +1,14 @@
+{
+  "name": "ep_render_media",
+  "version": "1.0.0",
+  "description": "This plugin creates a button which triggers the showing of a upload form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "media upload"
+  ],
+  "author": "Ghostthinker GmbH",
+  "license": "ISC"
+}

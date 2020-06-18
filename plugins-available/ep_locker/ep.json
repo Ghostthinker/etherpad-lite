@@ -1,0 +1,18 @@
+{
+    "parts": [
+        {
+            "name": "main",
+            "hooks": {
+                "eejsBlock_editbarMenuRight": "ep_locker/index",
+                "clientVars": "ep_locker/index",
+                "expressCreateServer": "ep_locker/index:expressCreateServer",
+                "userLeave": "ep_locker/index"
+            },
+            "client_hooks": {
+                "postAceInit": "ep_locker/static/js/index",
+                "aceEditorCSS": "ep_locker/static/js/index",
+                "handleClientMessage_lock": "ep_locker/static/js/index"
+            }
+        }
+    ]
+}
