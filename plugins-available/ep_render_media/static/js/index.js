@@ -113,7 +113,7 @@ exports.aceDomLineProcessLineAttributes = function (name, context) {
             var exp = /data-thumbnail=(.*true)/
             var showThumbnail = exp.exec(cls) ? exp.exec(cls)[1] : false;
             var mediaId = imgType[1].replace(/\D/g, "");
-            var url = clientVars.baseUrl + '/api/' + item + '/render/' + mediaId
+            var url = clientVars.baseUrl + '/rest/' + item + '/render/' + mediaId
             $.ajax({
                 url: showThumbnail ?  url + "/thumbnail" : url,
                 type: "GET",
